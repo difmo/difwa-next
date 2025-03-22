@@ -1,0 +1,190 @@
+{
+  "Header": {
+    "title": "CRISP CLEAN WATER DELIVERED FRESH",
+    "paragraph": "Stay hydrated with clean, high-quality water delivered straight to your doorstep by Difwa. We ensure safe, hassle-free water delivery for homes, offices, and businesses. Just a tap away—order now and enjoy refreshing purity every day!"
+  },
+
+  "About": {
+    "paragraph": "Difwa is a smart water delivery platform designed to bridge the gap between users and verified water vendors. We ensure timely, safe, and affordable drinking water deliveries to homes, offices, and businesses with a seamless ordering experience.",
+    "Why": [
+      "Quick and easy ordering",
+      "Affordable pricing",
+      "Verified and trusted vendors",
+      "Timely delivery guaranteed"
+    ],
+    "Why2": [
+      "Real-time order tracking",
+      "Multiple payment options",
+      "Eco-friendly packaging",
+      "24/7 customer support"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/pure-water1.jpg",
+      "smallImage": "img/portfolio/pure-water1.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/pure-water2.jpg",
+      "smallImage": "img/portfolio/pure-water2.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/pure-water3.jpg",
+      "smallImage": "img/portfolio/pure-water3.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/pure-water4.jpg",
+      "smallImage": "img/portfolio/pure-water4.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/pure-water5.jpg",
+      "smallImage": "img/portfolio/pure-water5.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/pure-water6.jpg",
+      "smallImage": "img/portfolio/pure-water6.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/pure-water7.jpg",
+      "smallImage": "img/portfolio/pure-water7.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/pure-water8.jpg",
+      "smallImage": "img/portfolio/pure-water8.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/pure-water9.jpg",
+      "smallImage": "img/portfolio/pure-water9.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-truck",
+      "name": "Hassle-Free Deliveries",
+      "text": "Get fresh water delivered on time, every time, with difwa's scheduled delivery service."
+    },
+    {
+      "icon": "fa fa-recycle",
+      "name": "Sustainable Bottle Recycling",
+      "text": "Help the environment by returning used bottles for difwa's eco-friendly recycling."
+    },
+    {
+      "icon": "fa fa-home",
+      "name": "Custom Bottle Sizes",
+      "text": "Choose from a variety of bottle sizes from difwa to meet your home or business needs."
+    },
+    {
+      "icon": "fa fa-building",
+      "name": " Bulk & Business Orders",
+      "text": "Special bulk delivery options from difwa for offices, events, and commercial use."
+    },
+    {
+      "icon": "fa fa-star",
+      "name": "Strict Quality Control",
+      "text": "Every bottle from difwa is checked for purity, safety, and hygiene standards."
+    },
+    {
+      "icon": "fa fa-gift",
+      "name": "Exclusive Referral Rewards",
+      "text": "Invite friends and family to difwa to earn discounts and exciting rewards."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Difwa made getting fresh water so easy! I don’t have to worry about running out of drinking water anymore.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"As a vendor, Difwa has helped me reach more customers and grow my business. The platform is simple and effective!.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"The real-time tracking feature is amazing! I always know exactly when my water will arrive.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"The customer support team is very responsive and helpful. They quickly resolved my issue with a missed delivery.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"I love how convenient the app is. Ordering water takes just a few taps, and it arrives so quickly!\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Difwa’s eco-friendly approach is something I truly appreciate. Clean water and a cleaner environment!\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Perfect for bulk orders! My restaurant relies on Difwa, and they never disappoint with timely deliveries.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Dinesh Kumar",
+      "job": "Founder & CEO"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Pritam Kumar Sharma",
+      "job": "CTO"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Vimal Raj",
+      "job": "Project Manager"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Aman Kumar",
+      "job": "Product Manager"
+    }
+  ],
+  "Contact": {
+    "address": "KV House 4/37  Vibhav Khand Gomti nagar lucknow 226010",
+    "phone": "+91 9455791624",
+    "email": "info@difw.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-tint",
+      "title": "Effortless Ordering",
+      "text": "Order fresh, clean water from difwa in just a few taps with our easy-to-use app."
+    },
+    {
+      "icon": "fa fa-leaf",
+      "title": "Eco-Friendly Practices",
+      "text": "Our dedicated difwa team is always ready to help with your orders and concerns."
+    },
+    {
+      "icon": "fa fa-bell",
+      "title": "24/7 Customer Care",
+      "text": "Our dedicated team is always ready to help with your orders and concerns."
+    },
+    {
+      "icon": "fa fa-rocket",
+      "title": "Speedy & Secure Delivery",
+      "text": "Get pure water delivered quickly and safely by difwa, right to your doorstep."
+    }
+  ]
+}
