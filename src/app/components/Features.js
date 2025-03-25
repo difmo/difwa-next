@@ -16,7 +16,7 @@ const features = [
       "Our dedicated Difwa team is always ready to help with your orders and concerns.",
   },
   {
-    icon: <FaBell size={40} className="text-white" />,
+    icon: <FaBell size={40} className="text-white"/>,
     title: "24/7 Customer Care",
     description:
       "Our dedicated team is always ready to help with your orders and concerns.",
