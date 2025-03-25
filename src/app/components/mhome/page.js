@@ -3,6 +3,7 @@ import React from "react";
 import Features from "../Features";
 import Image from "next/image";
 import age from "../../../../public/img/image.jpg";
+
 const Page = () => {
   return (
     <>

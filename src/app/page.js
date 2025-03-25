@@ -31,7 +31,8 @@ export default function Home() {
       <OurServices />
       <Gallery data={landingPageData.Gallery} />
       <Testimonials data={landingPageData.Testimonials} />
-      {/* <Contact data={landingPageData.Contact} /> */}
+      <Contact data={landingPageData.Contact} />
+      {/* <PrivacyPolicy /> */}
     </>
   );
 }
