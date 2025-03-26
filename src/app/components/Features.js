@@ -32,7 +32,7 @@ const features = [
 export default function FeaturesSection() {
   return (
     <section
-      className="py-12  px-3 text-center"
+      className="py-16 px-4 md:px-28 text-left"
       style={{
         background: `linear-gradient(
           140deg,
@@ -43,11 +43,9 @@ export default function FeaturesSection() {
         linear-gradient(72deg, transparent, rgba(0, 225, 117, 0.64))`,
       }}
     >
-      <h2 className="text-lg text-left md:text-center font-semibold text-white">
-        FEATURES
-      </h2>
+      <h2 className="text-lg text-left font-semibold text-white">FEATURES</h2>
       <div
-        className="w-16 h-1 md:mx-auto my-2  rounded-full"
+        className="w-16 h-1  my-2  rounded-full"
         style={{
           background: `linear-gradient(
           140deg,
@@ -58,24 +56,23 @@ export default function FeaturesSection() {
         linear-gradient(72deg, transparent, rgba(0, 225, 117, 0.64))`,
         }}
       />
-      <p className="text-white text-lg max-w-2xl mx-auto mb-8">
+      <p className="text-white text-lg max-w-7xl  py-8">
         Difwa ensures pure water delivery with reliability, sustainability, and
         quality service right at your fingertips.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8   ">
         {features.map((feature, index) => (
-          <div
-            key={index}
-            className="flex flex-col items-center text-cente  hover:scale-105 "
-          >
+          <div key={index} className="flex flex-col items-center text-left  ">
             <div className="w-20 h-20 flex items-center justify-center rounded-full bg-[#08080789]">
               {feature.icon}
             </div>
-            <h3 className="text-lg font-semibold text-gray-50 mt-4">
+            <h3 className="text-lg font-semibold text-gray-50 text-center mt-4">
               {feature.title}
             </h3>
-            <p className="text-gray-50 mt-2 text-md">{feature.description}</p>
+            <p className="text-gray-50 mt-2 text-center text-md">
+              {feature.description}
+            </p>
           </div>
         ))}
       </div>

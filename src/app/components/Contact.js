@@ -51,9 +51,9 @@ export const Contact = () => {
       ), linear-gradient(72deg, transparent, rgba(0, 225, 117, 0.64))`,
       }}
     >
-      <div className="flex   px-20">
-        <div className="w-1/2   p-8">
-          <div className="text-center mb-6">
+      <div className="flex px-4  md:px-28">
+        <div className="w-full lg:w-1/2   ">
+          <div className="text- mb-6">
             <h2 className=" text-left text-3xl font-bold text-gray-100">
               Get In Touch
             </h2>

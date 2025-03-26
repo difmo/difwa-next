@@ -1,13 +1,13 @@
 "use client";
-
+import img from "../../../public/img/phone.svg";
 import Image from "next/image";
 import image from "../../../public/img/image.jpg";
 export default function AboutUs() {
   return (
-    <section className=" mx-auto px-4 py-10">
+    <section className=" mx-auto px-4 md:px-28 pt-10">
       <h2 className="text-3xl font-bold mb-4 text-gray-950">ABOUT US</h2>
       <div
-        className="w-16 h-1 md:mx-auto my-2"
+        className="w-16 h-1  my-2"
         style={{
           background: `linear-gradient(
         140deg,
@@ -22,7 +22,7 @@ export default function AboutUs() {
         {/* Image Section */}
         <div className="w-full lg:w-1/2">
           <Image
-            src={image}
+            src={img}
             alt="Difwa Water Service"
             className="w-full h-80 md:h-[600px]  "
           />

@@ -1,18 +1,18 @@
 import Image from "next/image";
 import React from "react";
-import img from "../../../public/img/phone.svg";
+
 import app from "../../../public/app-store.webp";
 import play from "../../../public/playstore.webp";
 const Phone = () => {
   return (
     <div>
-      <section className="container mx-auto px-4 py-10 text-center">
+      <section className="mx-auto px-4 my-10 md:px-28">
         {/* Title & Description */}
-        <h2 className="text-3xl font-bold text-left md:text-center text-gray-900 mb-4">
+        <h2 className="text-3xl font-bold text-left  text-gray-900 mb-4">
           Mobile App
         </h2>
         <div
-          className="w-16 h-1 md:mx-auto my-2"
+          className="w-16 h-1  my-2"
           style={{
             background: `linear-gradient(
         140deg,
@@ -27,13 +27,13 @@ const Phone = () => {
         </p>
 
         {/* App Image */}
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <Image
             src={img}
             alt="Mobile App Preview"
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
           />
-        </div>
+        </div> */}
 
         {/* Download Buttons */}
         <div className="flex flex-col sm:flex-row justify-around items-center gap-4 mt-6">

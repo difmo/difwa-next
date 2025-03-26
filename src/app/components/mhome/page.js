@@ -8,10 +8,10 @@ import play from "../../../../public/playstore.webp";
 const Page = () => {
   return (
     <>
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between bg-white px-6 md:px-12 py-12 max-w-7xl mx-auto">
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between bg-white px-4 md:px-28 py-18 lg:max-w-7xl mx-auto">
         {/* Left Content */}
-        <div className="text-left lg:text-center md:text-left md:w-1/2">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+        <div className="text-left  md:w-1/2">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-16">
             CRISP CLEAN WATER DELIVERED FRESH <br />{" "}
             <span className="text-blue-600">Right At Your Doorstep</span>
           </h1>

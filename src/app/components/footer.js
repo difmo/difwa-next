@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="bg-gray-900 text-white py-6 text-center flex flex-col items-center gap-2">
         <p>&copy; 2025 DIWFA. All Rights Reserved.</p>
         <Link href="/privacy-policy">
-          <p className="text-blue-600 underline">Privacy Policy</p>
+          <p className="text-gray-100 ">Privacy Policy</p>
         </Link>
       </footer>
     </div>

@@ -50,7 +50,7 @@ const services = [
 const OurServices = () => {
   return (
     <section
-      className="py-12 px-6 text-white text-center"
+      className="py-12 px-4 md:px-28 text-white text-left"
       style={{
         background: `linear-gradient(
         140deg,
@@ -64,7 +64,7 @@ const OurServices = () => {
         Our Services
       </h2>
       <div
-        className="w-16 h-1 mx-auto my-2"
+        className="w-16 h-1  my-2"
         style={{
           background: `linear-gradient(
         140deg,
