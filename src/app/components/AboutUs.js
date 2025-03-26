@@ -1,10 +1,22 @@
 "use client";
 
 import Image from "next/image";
-import image from  "../../../public/img/image.jpg"
+import image from "../../../public/img/image.jpg";
 export default function AboutUs() {
   return (
     <section className=" mx-auto px-4 py-10">
+      <h2 className="text-3xl font-bold mb-4 text-gray-950">ABOUT US</h2>
+      <div
+        className="w-16 h-1 md:mx-auto my-2"
+        style={{
+          background: `linear-gradient(
+        140deg,
+        rgba(3, 94, 139, 0.93),
+        rgba(0, 203, 169, 0.73),
+        rgba(0, 225, 80, 0.04)
+      ), linear-gradient(72deg, transparent, rgba(0, 225, 117, 0.64))`,
+        }}
+      />
       {/* Layout container */}
       <div className="flex flex-col lg:flex-row  gap-8">
         {/* Image Section */}
@@ -12,13 +24,12 @@ export default function AboutUs() {
           <Image
             src={image}
             alt="Difwa Water Service"
-            className="w-full h-[600px]  rounded-lg shadow-lg"
+            className="w-full h-80 md:h-[600px]  "
           />
         </div>
 
         {/* Text Section */}
         <div className="w-full lg:w-1/2">
-          <h2 className="text-3xl font-bold mb-4 text-gray-950">ABOUT US</h2>
           <p className="text-gray-600 mb-6">
             Difwa is a smart water delivery platform designed to bridge the gap
             between users and verified water vendors. We ensure timely, safe,

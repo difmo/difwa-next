@@ -2,16 +2,17 @@
 import React from "react";
 import Features from "../Features";
 import Image from "next/image";
-import age from "../../../../public/img/image.jpg";
-
+import age from "../../../../public/difwa.png";
+import app from "../../../../public/app-store.webp";
+import play from "../../../../public/playstore.webp";
 const Page = () => {
   return (
     <>
       <section className="flex flex-col-reverse md:flex-row items-center justify-between bg-white px-6 md:px-12 py-12 max-w-7xl mx-auto">
         {/* Left Content */}
-        <div className="text-center md:text-left md:w-1/2">
+        <div className="text-left lg:text-center md:text-left md:w-1/2">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-            Water Can Delivery <br />{" "}
+            CRISP CLEAN WATER DELIVERED FRESH <br />{" "}
             <span className="text-blue-600">Right At Your Doorstep</span>
           </h1>
           <p className="text-lg text-gray-600 mt-4">
@@ -22,12 +23,12 @@ const Page = () => {
 
           {/* Buttons */}
           <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <button className="bg-black text-white px-6 py-3 rounded-lg shadow-md hover:opacity-80 transition">
-              📱 App Store
-            </button>
-            <button className="bg-gray-200 text-gray-900 px-6 py-3 rounded-lg shadow-md hover:opacity-80 transition">
-              ▶ Google Play
-            </button>
+            <a href="https://your-link-for-app.com">
+              <Image src={app} alt="App Image" className="h-14 w-40" />
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.difmo.difwa">
+              <Image src={play} alt="Play Image" className="h-14 w-40" />
+            </a>
           </div>
         </div>
 
@@ -36,7 +37,7 @@ const Page = () => {
           <Image
             src={age}
             alt="Water Delivery"
-            className="max-w-full h-auto rounded-lg shadow-lg"
+            className="max-w-full h-auto "
           />
         </div>
       </section>

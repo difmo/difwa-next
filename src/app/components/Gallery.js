@@ -40,6 +40,17 @@ export const Gallery = ({ data }) => {
       <div className="container mx-auto ">
         <div className="section-title mb-8">
           <h2 className="text-3xl font-bold text-gray-800">Gallery</h2>
+          <div
+            className="w-20 h-1 mx-auto my-2"
+            style={{
+              background: `linear-gradient(
+        140deg,
+        rgba(3, 94, 139, 0.93),
+        rgba(0, 203, 169, 0.73),
+        rgba(0, 225, 80, 0.04)
+      ), linear-gradient(72deg, transparent, rgba(0, 225, 117, 0.64))`,
+            }}
+          />
           <p className="text-gray-600 mt-2">
             Explore Difwa’s journey of delivering pure, fresh water with quality
             and care.

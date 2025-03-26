@@ -7,7 +7,7 @@ import AboutUs from "./components/AboutUs";
 import Phone from "./components/Phone";
 import OurServices from "./components/OurServices";
 import { Gallery } from "./components/Gallery";
-import { Testimonials } from "./components/Testimonials";
+// import { Testimonials } from "./components/Testimonials";
 import { Contact } from "./components/Contact";
 
 export default function Home() {
@@ -30,9 +30,10 @@ export default function Home() {
       <Phone />
       <OurServices />
       <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
+      {/* <Testimonials data={landingPageData.Testimonials} /> */}
       <Contact data={landingPageData.Contact} />
       {/* <PrivacyPolicy /> */}
+      <payment-page />
     </>
   );
 }

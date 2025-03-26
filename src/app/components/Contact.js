@@ -57,6 +57,17 @@ export const Contact = () => {
             <h2 className=" text-left text-3xl font-bold text-gray-100">
               Get In Touch
             </h2>
+            <div
+              className="w-16 h-1  my-2"
+              style={{
+                background: `linear-gradient(
+        140deg,
+        rgba(3, 94, 139, 0.93),
+        rgba(0, 203, 169, 0.73),
+        rgba(0, 225, 80, 0.04)
+      ), linear-gradient(72deg, transparent, rgba(0, 225, 117, 0.64))`,
+              }}
+            />
             <p className="text-gray-100 text-left py-2">
               Please fill out the form below to send us an email, and we will
               get back to you as soon as possible.

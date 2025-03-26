@@ -63,6 +63,17 @@ const OurServices = () => {
       <h2 className="text-xl font-semibold uppercase tracking-wider">
         Our Services
       </h2>
+      <div
+        className="w-16 h-1 mx-auto my-2"
+        style={{
+          background: `linear-gradient(
+        140deg,
+        rgba(3, 94, 139, 0.93),
+        rgba(0, 203, 169, 0.73),
+        rgba(0, 225, 80, 0.04)
+      ), linear-gradient(72deg, transparent, rgba(0, 225, 117, 0.64))`,
+        }}
+      />
       <p className="text-lg mt-2 mb-8">
         Providing pure, fresh water with reliable delivery, sustainability, and
         customer care with difwa.

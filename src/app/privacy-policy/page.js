@@ -2,8 +2,10 @@
 
 const PrivacyPolicy = () => {
   return (
-    <div className="max-w-4xl bg-amber-300 mx-auto p-6 text-gray-800">
-      <h1 className="text-4xl font-bold text-center mb-6">Privacy Policy</h1>
+    <div className=" p-10 text-gray-800">
+      <h1 className="text-4xl lg:text-6xl rounded-2xl font-bold text-center bg-blue-600 py-12 mb-6">
+        Privacy Policy
+      </h1>
       <p className="text-center text-gray-600">
         Effective Date: February 16, 2025
       </p>
@@ -18,7 +20,7 @@ const PrivacyPolicy = () => {
       <h2 className="text-2xl font-semibold mt-6">
         1. Types of Information We May Collect from You
       </h2>
-      <p>
+      <p className="text-xl p-4">
         We may collect, store, and use the following kinds of personal
         information about individuals who visit and use our website and social
         media sites:
@@ -78,15 +80,17 @@ const PrivacyPolicy = () => {
       </p>
 
       <h2 className="text-2xl font-semibold mt-6">App Access Instructions</h2>
-      <p>
-        The user enters their identifier, such as an Email address -{" "}
-        <span className="font-semibold">testdifwa@gmail.com</span>.
-      </p>
-      <p>
-        The user inputs their Password -{" "}
-        <span className="font-semibold">Testdifwa@123</span> associated with
-        their account.
-      </p>
+      <div className="border-2 border-amber-300 p-3">
+        <p>
+          The user enters their identifier, such as an Email address -{" "}
+          <span className="font-semibold">testdifwa@gmail.com</span>.
+        </p>
+        <p>
+          The user inputs their Password -{" "}
+          <span className="font-semibold">Testdifwa@123</span> associated with
+          their account.
+        </p>
+      </div>
     </div>
   );
 };
