@@ -40,7 +40,7 @@ const Phone = () => {
           <a href="#" className="w-40 sm:w-48">
             <Image src={app} alt="Download on App Store" className="w-full" />
           </a>
-          <a href="#" className="w-40 sm:w-48">
+          <a href="https://play.google.com/store/apps/details?id=com.difmo.difwa" className="w-40 sm:w-48">
             <Image
               src={play}
               alt="Download on Google Play"

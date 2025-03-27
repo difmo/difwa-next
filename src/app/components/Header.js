@@ -19,7 +19,7 @@ const Header = () => {
 
         {/* Desktop Store Links */}
         <div className="hidden md:flex gap-4">
-          <a href="https://your-link-for-app.com">
+          <a href="#">
             <Image src={app} alt="App Store" className="h-10 w-40" />
           </a>
           <a href="https://play.google.com/store/apps/details?id=com.difmo.difwa">

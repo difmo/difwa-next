@@ -23,7 +23,7 @@ const Page = () => {
 
           {/* Buttons */}
           <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <a href="https://your-link-for-app.com">
+            <a href="#">
               <Image src={app} alt="App Image" className="h-14 w-40" />
             </a>
             <a href="https://play.google.com/store/apps/details?id=com.difmo.difwa">

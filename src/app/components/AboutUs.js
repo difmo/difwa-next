@@ -18,7 +18,7 @@ export default function AboutUs() {
         }}
       />
       {/* Layout container */}
-      <div className="flex flex-col lg:flex-row  gap-8">
+      <div className="flex flex-col lg:flex-row ">
         {/* Image Section */}
         <div className="w-full lg:w-1/2">
           <Image
