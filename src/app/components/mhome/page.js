@@ -8,7 +8,7 @@ import play from "../../../../public/playstore.webp";
 const Page = () => {
   return (
     <>
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between bg-white px-4 md:px-28 py-18 lg:max-w-7xl mx-auto">
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between bg-white px-4 md:px-28 py-18 lg:px-28 mx-auto">
         {/* Left Content */}
         <div className="text-left  md:w-1/2">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-16">
