@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation"; // Next.js Router
 import { doc, getDoc, updateDoc } from "firebase/firestore";
 import { db } from "../config/config";
+import { motion, AnimatePresence } from "framer-motion";
+// import { AnimatePresence } from "framer-motion";
 
 const PaymentPage = () => {
   const [userId, setUserId] = useState("");
@@ -11,6 +13,7 @@ const PaymentPage = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const router = useRouter(); // Next.js router
+  const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -124,32 +127,67 @@ const PaymentPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-gray-900 bg-gray-100 p-6">
-      <h2 className="text-2xl font-bold mb-4">Payment Page</h2>
-      {error ? (
-        <p className="text-red-500">{error}</p>
-      ) : (
-        <>
-          <div className="bg-white shadow-md rounded-lg p-4 mb-4">
-            <p>
-              <strong>User ID:</strong> {userId}
-            </p>
-            <p>
-              <strong>Amount to Pay:</strong> ₹ {amount.toFixed(2)}
-            </p>
-          </div>
-          <button
-            onClick={openCheckout}
-            className={`bg-blue-500 text-white px-6 py-2 rounded-lg ${
-              loading ? "opacity-50 cursor-not-allowed" : "hover:bg-blue-600"
-            }`}
-            disabled={loading}
+    <AnimatePresence>
+      {showModal && (
+        <motion.div
+          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
+          {/* Modal Container */}
+          <motion.div
+            className="bg-white shadow-lg rounded-2xl p-6 max-w-sm w-full text-center relative"
+            initial={{ y: 50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: 50, opacity: 0 }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
           >
-            {loading ? "Processing..." : "Pay Now"}
-          </button>
-        </>
+            {/* Close Button */}
+            <button
+              onClick={() => setShowModal(false)}
+              className="absolute top-3 right-3 text-gray-500 hover:text-red-500 text-xl"
+            >
+              ✕
+            </button>
+
+            {/* Title */}
+            <h2 className="text-2xl font-bold text-blue-700 mb-4">
+              Secure Payment
+            </h2>
+
+            {/* User & Amount */}
+            {error ? (
+              <p className="text-red-500">{error}</p>
+            ) : (
+              <>
+                <div className="bg-gray-100 p-4 rounded-lg shadow-inner mb-4">
+                  <p className="text-lg">
+                    <strong>User ID:</strong> {userId}
+                  </p>
+                  <p className="text-lg">
+                    <strong>Amount to Pay:</strong> ₹ {amount.toFixed(2)}
+                  </p>
+                </div>
+
+                {/* Pay Button */}
+                <button
+                  onClick={openCheckout}
+                  className={`w-full bg-blue-500 text-white font-semibold px-6 py-3 rounded-lg transition-all ${
+                    loading
+                      ? "opacity-50 cursor-not-allowed"
+                      : "hover:bg-blue-600 active:scale-95"
+                  }`}
+                  disabled={loading}
+                >
+                  {loading ? "Processing..." : "Pay Now"}
+                </button>
+              </>
+            )}
+          </motion.div>
+        </motion.div>
       )}
-    </div>
+    </AnimatePresence>
   );
 };
 
