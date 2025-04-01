@@ -137,7 +137,7 @@ const PaymentPage = () => {
         >
           {/* Modal Container */}
           <motion.div
-            className="bg-white shadow-lg rounded-2xl p-6 max-w-sm w-full text-center relative"
+            className="bg-white text-black   shadow-lg rounded-2xl p-6 max-w-sm w-full text-center relative"
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 50, opacity: 0 }}
